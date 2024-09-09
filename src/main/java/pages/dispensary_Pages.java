@@ -311,8 +311,8 @@ public class dispensary_Pages extends StartupPage {
 
 	/**@Test17
 	 * about this method verifyIndiaIsSelectedFromCountryDropdown() 
-	 * @param : get the data from json file as type Map<String, String> expectedData
-	 * @description : it will select the country as per json expected data
+	 * @param : get the data from excel file as type Map<String, String> expectedData
+	 * @description : it will select the country as per excel expected data
 	 * @return : String
 	 * @author : YAKSHA
 	 */
