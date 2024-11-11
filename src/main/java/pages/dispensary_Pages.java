@@ -2,11 +2,10 @@ package pages;
 
 import java.util.Map;
 
-
 import org.openqa.selenium.WebDriver;
 
-public class dispensary_Pages extends StartupPage {
 
+public class dispensary_Pages extends StartupPage {
 	
 	String pageName = this.getClass().getSimpleName();
 	public dispensary_Pages(WebDriver driver) {
