@@ -12,7 +12,7 @@ public class dispensary_Pages extends StartupPage {
 		super(driver);
 	}
 
-	/**@Test1
+	/**@Test1.1
 	 * about this method loginTohealthAppByGivenValidCredetial() 
 	 * @param : Map<String, String>
 	 * @description : fill usernameTextbox & passwordTextbox and click on sign in button
@@ -212,62 +212,8 @@ public class dispensary_Pages extends StartupPage {
 		
 		return null;
 	}
-
-
-
+	
 	/**@Test11
-	 * about this method byClickingOnThatButtonSomeTextFieldsAreDisplyed() 
-	 * @param : null
-	 * @description : on the Add Requisition page, clicking the + icon button on right hand side of Remarks text box add a  the New set of elements to add a new records and validate New Item text field, Quantity Text field and Remark text box are present or not 2nd rows?
-	 * @return : Boolean
-	 * @author : Yaksha
-	 */
-	public Boolean byClickingOnThatButtonSomeTextFieldsAreDisplyed() throws Exception {
-			
-		return false;
-	}
-	
-	
-	/**@Test12.1
-	 * about this method verifyPageNameOfRequisitionDetailsPage() 
-	 * @param : null
-	 * @description : On the "Requisition" page, verify that view button under "action" navigate to the "Requisition Details Print" page and validate the page name is  "Requisition Details Print" 
-	 * @return : String
-	 * @author : Yaksha
-	 */
-	public String verifyPageNameOfRequisitionDetailsPage() throws Exception {
-		
-		return null;
-	}
-	
-	
-	/**@Test12.2
-	 * about this method validateTheButtonsArePresentOrNot() 
-	 * @param : null
-	 * @description :  validate "print" and "Requisitions List" button are present
-	 * @return : Boolean
-	 * @author : Yaksha
-	 */
-	public Boolean validateTheButtonsArePresentOrNot() throws Exception {
-
-		return false;
-	}
-	
-	
-	/**@Test13
-	 * about this method getTheMedicineNameFromTable() 
-	 * @param : null
-	 * @description :  On the "Requisition Details Print" page, Get the medicine name from the "Requisition Details Print" table and  validate the medicine name is not blank.
-	 * @return : Boolean
-	 * @author : Yaksha
-	 */
-	public Boolean getTheMedicineNameFromTable() throws Exception {
-
-		return false;
-	}
-	
-
-	/**@Test14
 	 * about this method inAddressFieldValidateThePlaceHolderNameAndPrintOnConsole() 
 	 * @param : null
 	 * @description : On the "New SSU Patient Registration" under social service module, get the place holder name of "Address" textfiled of  "New SSU Patient Registration" page and verify  the place holder name.
@@ -279,7 +225,7 @@ public class dispensary_Pages extends StartupPage {
 		return null;
 	}
 	
-	/**@Test15
+	/**@Test12
 	 * about this method closeNewSSUPatientRegistrationPopupByUsingJsExecutor() 
 	 * @param : null
 	 * @description : On the "New SSU Patient Registration" page, Close this "New SSU Patient Registration" popup page by using javaScript.
@@ -288,6 +234,44 @@ public class dispensary_Pages extends StartupPage {
 	 */
 	public Boolean closeNewSSUPatientRegistrationPopupByUsingJsExecutor() throws Exception {
 		
+		return false;
+	}
+	
+	/**@Test13
+	 * about this method verifyToolTipOfAnElement()
+	 * @param : null
+	 * @description :go to appointmentTab and verify the TOOLTIP value/text
+	 * @return : String
+	 * @author : YAKSHA
+	 */
+	public String verifyToolTipOfAnElement() throws Exception {
+		
+		return null;
+	}
+
+	/**@Test14
+	 * about this method verifyIndiaIsSelectedFromCountryDropdown() 
+	 * @param : get the data from excel file as type Map<String, String> expectedData
+	 * @description : it will select the country as per excel expected data
+	 * @return : String
+	 * @author : YAKSHA
+	 */
+	public String verifyIndiaIsSelectedFromCountryDropdown(Map<String, String> expectedData) throws Exception {
+
+		
+			return null;
+		
+	}
+
+	/**@Test15
+	 * about this method takingScreenshotOfTheCurrentPage() 
+	 * @param : null
+	 * @description : Taking screenshot of the current page.
+	 * @return : Boolean
+	 * @author : YAKSHA
+	 */
+	public Boolean takingScreenshotOfTheCurrentPage() throws Exception {
+
 		return false;
 	}
 
