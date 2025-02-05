@@ -237,42 +237,5 @@ public class dispensary_Pages extends StartupPage {
 		return false;
 	}
 	
-	/**@Test13
-	 * about this method verifyToolTipOfAnElement()
-	 * @param : null
-	 * @description :go to appointmentTab and verify the TOOLTIP value/text
-	 * @return : String
-	 * @author : YAKSHA
-	 */
-	public String verifyToolTipOfAnElement() throws Exception {
-		
-		return null;
-	}
-
-	/**@Test14
-	 * about this method verifyIndiaIsSelectedFromCountryDropdown() 
-	 * @param : get the data from excel file as type Map<String, String> expectedData
-	 * @description : it will select the country as per excel expected data
-	 * @return : String
-	 * @author : YAKSHA
-	 */
-	public String verifyIndiaIsSelectedFromCountryDropdown(Map<String, String> expectedData) throws Exception {
-
-		
-			return null;
-		
-	}
-
-	/**@Test15
-	 * about this method takingScreenshotOfTheCurrentPage() 
-	 * @param : null
-	 * @description : Taking screenshot of the current page.
-	 * @return : Boolean
-	 * @author : YAKSHA
-	 */
-	public Boolean takingScreenshotOfTheCurrentPage() throws Exception {
-
-		return false;
-	}
 
 }
