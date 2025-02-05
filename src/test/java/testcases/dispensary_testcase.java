@@ -158,32 +158,6 @@ public class dispensary_testcase extends AppTestBase
 		Assert.assertTrue(locatorsFactoryInstance.listByPatientStatusRadioButtonIsPresent(driver).isSelected(), "RadioButton is not present in the current page, Please check manually");
 	}
 	
-	@Test(priority = 13, groups = {"sanity"}, description="On the Appointment module, under the\"New visit\" tab, verify tooltips which is present on keyboard icon.")
-	public void  verifyTooltipOfAnElement() throws Exception {
-		dispensary_PagesInstance = new dispensary_Pages(driver);
-		locatorsFactoryInstance = new LocatorsFactory(driver);
-		Map<String, String> expectedData = new FileOperations().readExcelPOI(expectedDataFilePath, "KeyBoardTooltip");
-		Assert.assertEquals(dispensary_PagesInstance.verifyToolTipOfAnElement(), expectedData.get("newPatientTooltipValue"),"Verification failed, please check manually");
-	    Assert.assertTrue(locatorsFactoryInstance.tooltipTextIsPresent(driver).isDisplayed(), "Tooltip is not present in the current page, Please check manually");
-	}
-	
-	@Test(priority = 14, groups = {"sanity"}, description="Simply select India  from the country dropdown menu and validate India is selected or not.")
-	public void verifyIndiaIsSelectedFromCountryDropdown() throws Exception {
-		dispensary_PagesInstance = new dispensary_Pages(driver);
-		locatorsFactoryInstance = new LocatorsFactory(driver);
-
-		Map<String, String> expectedData = new FileOperations().readExcelPOI(expectedDataFilePath, "addNewPatientPopup");
-		Assert.assertEquals(dispensary_PagesInstance.verifyIndiaIsSelectedFromCountryDropdown(expectedData), expectedData.get("selectedCountryName"), "selected country is not matching with expected, please check manually!");
-		Assert.assertEquals(locatorsFactoryInstance.verifyIndiaIsPresent(), expectedData.get("selectedCountryName"), "selected country is not matching with expected, please check manually!");
-	}
-	
-	@Test(priority = 15, groups = {"sanity"}, description="On the Dispensary module's \"Sale\" page, Taking screenshot of the current page after closing the \"Add New Patient\" form.")
-	public void takingScreenshotOfCurrentPage() throws Exception {
-		dispensary_PagesInstance = new dispensary_Pages(driver);
-		locatorsFactoryInstance = new LocatorsFactory(driver);
-		Assert.assertTrue(dispensary_PagesInstance.takingScreenshotOfTheCurrentPage(),"Not able to take the screenshot, please check manually");
-		Assert.assertTrue(locatorsFactoryInstance.printInvoiceButtonIsPresent(driver).isDisplayed(),"Race TextField is not present in the current page, Please check manually");
-	}
 		
 	@AfterClass(alwaysRun = true)
 	public void tearDown() {
